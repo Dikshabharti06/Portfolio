@@ -1,0 +1,235 @@
+<html>
+    <head>
+        <title> My Portfolio</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="shortcut icon" href="Html Images/logo.jpg" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/effe4ece4b.js" crossorigin="anonymous"></script>
+        <style>
+            body{
+                font-size: larger;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            a{
+                text-decoration: none;
+                color:black;
+            }
+            i{
+                color:dodgerblue;
+                font-size: 40px;
+                margin: 10px;
+            }
+            i:hover{
+                font-size: 42px;
+                color: blue;
+                transform: rotate(2deg);
+                transition: 0.2s;
+            }
+            .items:hover{
+                transform: scale(1.1,1.1);
+                transition: 0.5s;
+            }
+            .items i{
+                font-size: 25px;
+                color: rgb(5, 49, 64); 
+            }
+            footer i{
+                color: white;
+            }
+            footer i:hover{
+                color: black;
+            }
+            #a1 h4::before{
+                content: "📧";
+            }
+            #a2 h4::before{
+                content: "📞";
+            }
+            #a3 h4::before{
+                content: "📍";
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function gotochap(){
+                document.getElementById("box4").scrollIntoView({behavior:"smooth"});
+            }
+        </script>
+        <header class="head">
+        <nav>
+        <img src="Html Images/logo.jpg" height="60px" width="60px" style="border-radius:1cm;">
+        <div class="navul">
+        <ul type="none" style="color: black;">
+            <a href="#box2">
+                <li>About</li>
+            </a>
+            <a href="#cd">
+                    <li>Skills</li>
+            </a>
+                    <li>Projects
+                        <div class="projectsul">
+                            <ul>
+                                <li>Project 1</li>
+                                <li>Project 2</li>
+                            </ul>
+                        </div>
+                    </li>
+            <a href="#ab">     
+                    <li>Education</li>
+            </a>          
+            <a href="#box4">
+                <li>Contact</li>
+            </a>
+                </ul>
+            </div>   
+            <div class="navicons">
+                <a href="https://github.com/Dikshabharti06" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/diksha-bharti-06sep05" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:dikshabharti0609@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i>
+                </a>
+                </div>
+               </nav>
+            </header>
+                <div class="box1">   
+                <div class="part1_1"> 
+                <img src="Html Images/IMG-20250412-WA0159[1].jpg" height="300px" width="300px" style="border-radius: 4.5cm; border: 10px solid grey;">
+                 </div>
+                <div class="part1_2">
+                <h1>Greetings, This is <span style="color:dodgerblue;"> Diksha Bharti</span></h1>
+                <span style="font-size: 24;">Computer Science Student, currently learning Web Development</span><br><br>
+                <span>I'm a beginner in Web Development but I've a keen interest in developing websites and innovative projects. A pre-final year student pursuing Computer Science and Engineering.</span><br><br>
+                <div class="buttons">
+                <input type="button" value="Contact me"  onclick="gotochap()">
+                <a href="resume-ex.pdf" target="_blank">
+                <input type="button" value=" View Resume">
+                </a>
+                </div>
+                <div class="icons" style="margin: 10px;">
+                <a href="https://github.com/Dikshabharti06" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/diksha-bharti-06sep05" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:dikshabharti0609@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i>
+                </a>
+                </div>
+                </div>
+                </div>
+                <div id="box2">
+                <div class="part2_1">
+                    <br>
+                    <h2>About Me</h2>
+                    <p> I'm an eager student and developing my interest in various fields like Web Development and Machine Learning. I am on my way to build versatile projects and have a steady hand in development.</p>
+                </div>
+                </div>
+                <div id="box3">
+                <div class="part2G">
+                    <div class="items" id="ab">
+                        <div id="aba">
+                            <h2><i class="fa-solid fa-user-graduate"></i> Education</h2>
+                        </div>
+                        <div id="abb">
+                            <span>Currently pursuing a Bachelor of Technology in Computer Science at Institute of Technology, Guru Ghasidas University with a GPA of 8.3.</span>
+                        </div>
+                    </div>
+                    <div class="items" id="bc">
+                        <div id="bca">
+                            <h2><i class="fa-solid fa-clipboard-list"></i> Development</h2>
+                        </div>
+                        <div id="bcb">
+                            <span>
+                                Experienced in full-stack development using MERN stack (MongoDB, Express, React, Node.js). I build responsive, user-friendly web applications with modern technologies.
+                                </span>
+                            </div>
+                    </div>
+                    <div class="items" id="cd">
+                        <div id="cda">
+                            <h2><i class="fa-solid fa-award"></i> Skills</h2>
+                        </div>
+                        <div id="cdb">
+                            <span>
+                                Started developing my interest in various fields like Web Development and Machine Learning. Mastered other programming languages including C++ and python. </span>
+                            </div>
+                    </div>
+                    <div class="items" id="de">
+                        <div id="dea">
+                            <h2>🥇 Leadership</h2>
+                        </div>
+                        <div id="deb">
+                            <span>
+                                Started developing my interest in various fields like Web Development and Machine Learning. Mastered other programming languages including C++ and python. </span>
+                            </div>
+                </div>
+                </div>
+                </div>
+                <div id="box4">
+                    <div id="b4one">
+                    <h2>Get Connected</h2>
+                    </div>
+                    <div id="box4_1">
+                        <div id="b4big">
+                            <div id="b41">
+                                <h2>Contact Information</h2>
+                                <div id="a1">
+                                <h4> E-Mail</h4>
+                                <p>dikshabharti0609@gamil.com</p>
+                                </div>
+                                <div id="a2">
+                                <h4> Phone</h4>
+                                <p>+91 7480818148</p>
+                                </div>
+                                <div id="a3">
+                                <h4> Location</h4>
+                                <p>Biharsharif, Bihar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="b4sml">
+                            <div id="b42" style="margin-top: auto;">
+                                <h2>Connect</h2>
+                                <a href="https://github.com/Dikshabharti06" target="_blank">
+                <i class="fa-brands fa-github" style="color: black;"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/diksha-bharti-06sep05" target="_blank">
+                <i class="fa-brands fa-linkedin" style="color: blue"></i>
+                </a>
+                <a href="mailto:dikshabharti0609@gmail.com" target="_blank">
+                <i class="fas fa-envelope" style="color: red;"></i>
+                </a>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+                <footer>
+                    <div id="foot1">
+                        <div id="left1">
+                            <h2>Diksha Bharti</h2>
+                            <p style="color:grey">Web Developer & Computer Science Student</p>
+                        </div>
+                        <div id="right1">
+                        <a href="https://github.com/Dikshabharti06" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/diksha-bharti-06sep05" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:dikshabharti0609@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i>
+                </a>  
+                    </div>
+                    </div>
+                    <div id="foot2">
+                        <div id="left2" style="color: grey; font-size: 16;">
+                            <p>©️ Diksha Bharti.&nbsp;All rights reserved.</p>
+                        </div>
+                    </div>
+                </footer>
+    </body>
+</html>
