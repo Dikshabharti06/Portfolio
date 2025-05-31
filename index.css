@@ -77,13 +77,13 @@ input:hover{
 #box4{
     width: 80%;
     height: 70%;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     background-color: rgb(216, 212, 212);
-    margin-top: 1cm;
+    margin-top: 1.5cm;
     margin-left: 1cm;
 }
 #box4_1{
@@ -104,7 +104,7 @@ input:hover{
 }
 .part2G{
     display: grid;
-    gap: 40px;
+    gap: 20px;
     grid-template-areas: 
     "part2a part2b"
     "part2c part2d";
