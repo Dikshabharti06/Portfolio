@@ -3,7 +3,6 @@ body{
     padding: 0;
 }
 .container{
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,9 +17,8 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 25px;
-    border: 2px solid red;
 }
-@media (max-width: 500px) {
+@media (max-width: 580px) {
   .box1 {
     display: flex;
     flex-direction: column;
@@ -92,7 +90,6 @@ input:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 2px solid red;
 }
 #box3{
     width: 80vw;
@@ -101,7 +98,6 @@ input:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
 }
 #box4{
     width: 80vw;
@@ -112,16 +108,14 @@ input:hover{
     justify-content:center;
     align-items: center;
     background-color: rgb(216, 212, 212);
-    border: 2px solid red;
 }
 #box4_1{
     height: auto;
     width: 50vw;
-    padding: 12px;
+    padding: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid red;
 }
 #b4big{
     display: flex;
@@ -135,7 +129,6 @@ input:hover{
     grid-template-areas: 
     "part2a part2b"
     "part2c part2d";
-    border: 2px solid red;
 }
 .part2G .items{
     height: 200px;
@@ -202,4 +195,3 @@ footer{
     justify-content: space-between;
     border-bottom: 1px solid grey;
 }
-
