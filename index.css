@@ -31,11 +31,23 @@ body{
     "part2c"
     "part2d";
 }
+div .part2G .items{
+    width: 350px;
+    padding: 20px;
+}
   div #box4_1{
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+  div #right1{
+    display: none;
+  }
+}
+@media (max-width: 680px) {
+    .navicons{
+        display: none;
+    }
 }
 .head{
     top:0;
@@ -44,6 +56,7 @@ body{
 }
 nav{
     background-color: white;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -185,6 +198,7 @@ ul li:hover .projectsul{
 footer{
     margin: 0;
     padding: 15px;
+    width: 100%;
     background-color: rgb(5, 49, 64); 
 }
 #foot1{
